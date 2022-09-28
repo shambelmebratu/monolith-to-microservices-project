@@ -54,4 +54,4 @@ jobs:
         context: ./udagram-reverseproxy
         file: ./udagram-reverseproxy/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME}}/udagram-reverseproxy:v1
+        tags: ${{ secrets.DOCKER_USERNAME}}/reverseproxy:v1
